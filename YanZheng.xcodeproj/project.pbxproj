@@ -14,6 +14,7 @@
 		04D7CF7C1A844B430014DC5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D7CF7B1A844B430014DC5A /* Images.xcassets */; };
 		04D7CF7F1A844B430014DC5A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D7CF7D1A844B430014DC5A /* LaunchScreen.xib */; };
 		04D7CF8B1A844B430014DC5A /* YanZhengTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D7CF8A1A844B430014DC5A /* YanZhengTests.m */; };
+		04D7CF961A844B610014DC5A /* PooCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D7CF951A844B610014DC5A /* PooCodeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		04D7CF841A844B430014DC5A /* YanZhengTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YanZhengTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D7CF891A844B430014DC5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04D7CF8A1A844B430014DC5A /* YanZhengTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YanZhengTests.m; sourceTree = "<group>"; };
+		04D7CF941A844B610014DC5A /* PooCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PooCodeView.h; sourceTree = "<group>"; };
+		04D7CF951A844B610014DC5A /* PooCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PooCodeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				04D7CF731A844B430014DC5A /* AppDelegate.m */,
 				04D7CF751A844B430014DC5A /* ViewController.h */,
 				04D7CF761A844B430014DC5A /* ViewController.m */,
+				04D7CF941A844B610014DC5A /* PooCodeView.h */,
+				04D7CF951A844B610014DC5A /* PooCodeView.m */,
 				04D7CF781A844B430014DC5A /* Main.storyboard */,
 				04D7CF7B1A844B430014DC5A /* Images.xcassets */,
 				04D7CF7D1A844B430014DC5A /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D7CF961A844B610014DC5A /* PooCodeView.m in Sources */,
 				04D7CF771A844B430014DC5A /* ViewController.m in Sources */,
 				04D7CF741A844B430014DC5A /* AppDelegate.m in Sources */,
 				04D7CF711A844B430014DC5A /* main.m in Sources */,
